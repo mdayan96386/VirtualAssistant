@@ -11,7 +11,7 @@ import userRouter from "./routes/user.routes.js"
 
 const app=express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://virtualassistant-uzrn.onrender.com",
     credentials:true
 }))
 const port=process.env.PORT || 5000
